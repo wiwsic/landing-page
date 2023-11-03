@@ -1,0 +1,86 @@
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    padding: 5px;
+}
+
+img {
+
+    max-width: 100%;
+}
+
+.sector1 {
+
+    display: flex;
+
+}
+
+.left-side {
+
+    flex: 1;
+    
+}
+
+.right-side {
+
+    flex: 1;
+}
+
+
+
+.sector2 {
+
+    display: flex;
+
+}
+
+.sector3 {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sector3-content {
+
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.sector4 {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sector4-content {
+
+    display: flex;
+    flex: row;
+}
+
+.sector5 {
+
+    display: flex;
+
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    padding: 5px;
+}
