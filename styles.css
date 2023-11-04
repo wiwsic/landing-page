@@ -37,8 +37,53 @@ img {
     background-color: black;
     color: white;
     display: flex;
+    flex-wrap: wrap;
     height: 900px;
+
+}
+
+.sector1 .left-side {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1.3;
     
+
+}
+
+.sector1 .left-side .title {
+
+    align-self: flex-start;
+
+}
+
+.sector1 .left-side .description {
+
+    align-self: flex-start;
+
+
+}
+
+.sector1 .right-side {
+
+    flex-grow: 2;
+
+}
+
+
+
+.sector1 .title {
+
+    font-size: 90px;
+
+}
+
+.sector1 .description {
+
+    font-size: 30px;
+
 }
 
 
